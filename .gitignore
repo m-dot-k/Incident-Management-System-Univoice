@@ -6,3 +6,5 @@ front/.dart_tool/
 .flutter-plugins-dependencies
 .packages
 pubspec.lock
+**/build/
+**/.dart_tool/
