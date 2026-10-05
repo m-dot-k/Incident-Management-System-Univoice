@@ -1,10 +1,5 @@
-﻿front/build/
-build/
-.dart_tool/
-front/.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-pubspec.lock
-**/build/
+﻿/build/
 **/.dart_tool/
+**/.flutter-plugins*
+**/.packages
+**/pubspec.lock
