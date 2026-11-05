@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Только для debug-сборки: заменяет одноимённый файл из src/main.
+     Разрешает HTTP без шифрования к любому адресу, чтобы приложение на реальном
+     телефоне могло ходить на локальный бэкенд по IP компьютера.
+     Release-сборка использует строгий конфиг из src/main/res/xml. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
